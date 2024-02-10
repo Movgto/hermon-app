@@ -1,10 +1,11 @@
 import { NavLink } from "react-router-dom";
+import Logo from '../../public/logo.png';
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-md navbar-light bg-secondary-subtle border-bottom">
       <div className="container-xxl d-flex">
-        <img src='../../public/logo.png' className="object-fit-cover" width="100" />
+        <img src={Logo} className="object-fit-cover" width="100" />
         <button
         className="navbar-toggler"
         type='button'
