@@ -23,19 +23,19 @@ const About = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col d-flex flex-column">
-            <a href="#inova" className="btn btn-lg fw-bold border-bottom" data-bs-toggle='collapse' role='button'>Innovación</a>
+            <a href="#inova" className="btn btn-lg fw-bold border-bottom" data-bs-toggle='collapse' role='button'>Innovación <i className="bi bi-stars"></i></a>
             <span id="inova" className="collapse">Brindar soluciones innovadoras basadas en tecnología para alcanzar objetivos.</span>
           </div>
           <div className="col d-flex flex-column">
-            <a href="#exel" className="btn btn-lg fw-bold border-bottom" data-bs-toggle='collapse' role='button'>Excelencia</a>
+            <a href="#exel" className="btn btn-lg fw-bold border-bottom" data-bs-toggle='collapse' role='button'>Excelencia <i className="bi bi-mortarboard-fill"></i></a>
             <span id="exel" className="collapse">Dar la mejor atención y servicio a los clientes y colaboradores.</span>
           </div>
           <div className="col d-flex flex-column">
-            <a href="#compr" className="btn btn-lg fw-bold border-bottom" data-bs-toggle='collapse' role='button'>Compromiso</a>
+            <a href="#compr" className="btn btn-lg fw-bold border-bottom" data-bs-toggle='collapse' role='button'>Compromiso <i className="bi bi-clipboard2-check-fill"></i></a>
             <span id="compr" className="collapse">Trabajo en conjunto para desarrollar tus ideas con el mejor entusiasmo.</span>
           </div>
           <div className="col d-flex flex-column">
-            <a href="#equipo" className="btn btn-lg fw-bold border-bottom" data-bs-toggle='collapse' role='button'>Trabajo en equipo</a>
+            <a href="#equipo" className="btn btn-lg fw-bold border-bottom" data-bs-toggle='collapse' role='button'>Trabajo en equipo <i className="bi bi-people-fill"></i></a>
             <span id="equipo" className="collapse">Más que una empresa somos un equipo que creemos en tus ideas y con los conocimientos logramos plasmarlos.</span>
           </div>
         </div>
